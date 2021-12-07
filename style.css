@@ -6,15 +6,23 @@
   box-sizing: border-box;
 }
 
+:root{
+  --softBlue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --mainBG: hsl(217, 54%, 11%);
+  --cardBG: hsl(216, 50%, 16%);
+  
+}
+
 body {
-  background-color: hsl(217, 54%, 11%);
+  background-color: var(--mainBG);
   color: hsl(0, 0%, 100%);
   font-family: "Poppins", sans-serif;
 }
 
 .card {
-  background-color: hsl(216, 50%, 16%);
-  border: 3px solid hsl(216, 50%, 16%);
+  background-color: var(--cardBG);
+  border: 3px solid var(--cardBG);
   border-radius: 12px;
   padding: 15px;
 }
@@ -70,7 +78,7 @@ body {
   font-size: 13px;
   font-weight: 300;
   padding-bottom: 10px;
-  color: hsl(215, 51%, 70%);
+  color: var(--softBlue);
 }
 
 .row {
@@ -80,7 +88,7 @@ body {
 }
 
 .currency {
-  color: hsl(178, 100%, 50%);
+  color: var(--cyan);
 }
 
 .currency i {
@@ -92,7 +100,7 @@ body {
   font-size: 13px;
 }
 .creator span {
-  color: hsl(215, 51%, 70%);
+  color: var(--softBlue);
 }
 
 .creator .avatar {
@@ -118,7 +126,7 @@ hr {
 .heading:hover,
 .name:hover {
   cursor: pointer;
-  color: hsl(178, 100%, 50%);
+  color: var(--cyan);
 }
 
 .attribution {
