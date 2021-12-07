@@ -41,7 +41,7 @@ body {
 .image .bg{
   position: absolute;
   top: 0;
-  background-color:hsl(178, 100%, 50%, 60%);;
+  background-color:hsl(178, 100%, 50%, 60%);
   width: 100%;
   height: calc(100% - 6px);
   z-index: 999;
